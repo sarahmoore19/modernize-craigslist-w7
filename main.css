@@ -1,3 +1,120 @@
+* {
+  font-family: 'Helvetica Neue', "Helvetia" sans-serif;
+  background-color: whitesmoke;
+  color: #464646;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li {
+  list-style: none;
+}
+
+a:visited {
+  color: #800080;
+}
+
+a:hover {
+  font-weight: bold;
+  color:#800080;
+}
+
+a > span:hover {
+  font-weight: bold;
+  color:#800080;
+}
+
+.page-container {
+  max-width: 1200px;
+}
+
+#leftbar,
+#center,
+#rightbar {
+  float: left;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+footer {
+  clear: both;
+}
+
+#leftbar,
+#rightbar {
+  width: 25%;
+}
+
+#center {
+  width: 50%;
+  border: 1px solid #464646;
+  border-radius: 10px;
+}
+
+#center > div {
+  float: left;
+  width: 33%;
+}
+
+#topban h2 {
+  text-align: center;
+}
+
+ul.clfooter {
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 10px 0px;
+}
+
+ul > li {
+  display: inline;
+}
+
+ul.clfooter > li {
+  padding-right: 5px;
+}
+
+h4.ban::before {
+  content: "☮️";
+}
+
+td {
+  border: 1px solid #333;
+  text-align: center;
+}
+
+table.cal {
+  border-collapse: collapse;
+}
+
+table a {
+  color: green;
+  font-weight: bold;
+}
+
+table a:hover,
+table td:hover {
+  background-color: lavender;
+  color:#800080;
+}
+
+td.past {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.today,
+.today > a {
+  color: white;
+  background-color: darkviolet;
+}
+
 .homepage #catAbb,
 .homepage #go,
 .homepage .leftlinks #cl_app_beta,
